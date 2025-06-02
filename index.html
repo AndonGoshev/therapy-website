@@ -53,8 +53,9 @@
 <!-- Hero Section -->
 <section class="relative bg-gradient-to-b from-cream-50 to-white overflow-hidden">
     <div class="container mx-auto px-4 py-20 md:py-32">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-            <div class="animate-fade-in">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <!-- Text content -->
+            <div class="animate-fade-in flex-1 order-2 md:order-1">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-sage-800 mb-6">
                     Вашият път към<br>
                     <span class="text-lavender-600">емоционално здраве</span>
@@ -63,17 +64,15 @@
                     Професионална психотерапия в Пловдив, насочена към вашия личен растеж и благополучие.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="/contact" class="btn btn-primary">
-                        Запазете час
-                    </a>
-                    <a href="/services" class="btn btn-secondary">
-                        Моите услуги
-                    </a>
+                    <a href="/contact" class="btn btn-primary">Запазете час</a>
+                    <a href="/services" class="btn btn-secondary">Моите услуги</a>
                 </div>
             </div>
-            <div class="relative animate-slide-up">
+
+            <!-- Image content -->
+            <div class="relative animate-slide-up flex-1 order-1 md:order-2">
                 <div class="aspect-square rounded-2xl overflow-hidden shadow-soft">
-                    <img src="/images/m-stoyanova.webp" 
+                    <img src="/therapy-website/images/m-stoyanova.webp" 
                          alt="Портрет на терапевта" 
                          class="w-full h-full object-cover">
                 </div>
@@ -83,6 +82,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- Services Section -->
 <section class="section bg-white">
@@ -219,7 +220,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div class="relative">
                 <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft">
-                    <img src="/images/m-stoyanova2.webp" 
+                    <img src="/therapy-website/images/m-stoyanova2.webp" 
                          alt="Терапевтична стая" 
                          class="w-full h-full object-cover">
                 </div>
@@ -478,7 +479,7 @@
             <!-- Blog Post 1 -->
             <article class="card group">
                 <div class="aspect-[16/9] rounded-xl overflow-hidden mb-6">
-                    <img src="/images/blog-1.jpg" 
+                    <img src="/therapy-website/images/stress.jpg" 
                          alt="Как да справяме със стреса" 
                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 </div>
@@ -499,7 +500,7 @@
             <!-- Blog Post 2 -->
             <article class="card group">
                 <div class="aspect-[16/9] rounded-xl overflow-hidden mb-6">
-                    <img src="/images/blog-2.jpg" 
+                    <img src="/therapy-website/images/relationship.jpg" 
                          alt="Здравословни взаимоотношения" 
                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 </div>
@@ -520,7 +521,7 @@
             <!-- Blog Post 3 -->
             <article class="card group">
                 <div class="aspect-[16/9] rounded-xl overflow-hidden mb-6">
-                    <img src="/images/blog-3.jpg" 
+                    <img src="/therapy-website/images/self-help.jpg" 
                          alt="Самопомощ" 
                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 </div>
