@@ -2,10 +2,12 @@
   "name": "therapy-website",
   "version": "1.0.0",
   "description": "Personal therapy website built with Eleventy and Tailwind CSS",
+  "homepage": "https://andongoshev.github.io/therapy-website",
+
   "scripts": {
     "start": "npx eleventy --serve & npx tailwindcss -i ./src/css/tailwind.css -o ./_site/css/styles.css --watch",
     "build": "eleventy",
-    "deploy": "npm run build && gh-pages -d _site",
+    "deploy": "gh-pages -d _site",
     "clean": "rimraf _site"
   },
   "keywords": [

@@ -1,0 +1,49 @@
+# Node modules
+/node_modules/
+
+# Eleventy build output
+/_site/
+
+# Tailwind/watch-generated files (if any)
+*.css
+*.css.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache folders (general)
+/.cache/
+.cache-loader/
+.cache/
+.11ty-cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Lock files (if you prefer not to commit them)
+/package-lock.json
+/yarn.lock
+
+# Optional: ignore build artifacts from other tools (unrelated to Eleventy)
+/dist/
+/public/
